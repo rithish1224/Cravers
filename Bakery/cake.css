@@ -1,0 +1,69 @@
+#headimg{
+    height: 50px;
+    margin-top: 10px;
+}
+
+#headtxt{
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.nav{
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #F2B0D5;
+    
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between; 
+}
+li{
+    list-style: none; display: inline-block; margin-right: 35px; 
+}
+
+li a{
+    color: black; font-size: 20px; font-weight: 600;
+}
+
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #F3D3E5;
+}
+
+.one{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    size: 25px;
+    margin-right: 15px;
+}
+
+.imgpro{
+    height: 350px;
+    width: 400px;
+}
+
+.redvelvet{
+    height: 350px;
+    width: 400px;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: 450px 450px 450px ;
+    grid-template-rows: 450px 450px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.prohead{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
